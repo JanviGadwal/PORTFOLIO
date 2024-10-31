@@ -1,0 +1,198 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #493628 ;
+    background-color: #f2e9e4;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+header{
+    text-align:center;
+    padding: 15px;
+    background-color:#e9e2de ;
+    
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+
+}
+
+header p{
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+#about{
+    text-align: center;
+    padding: 40px;
+}
+
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#about p{
+    font-size: 1.1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+#skills{
+    text-align: center;
+    padding: 40px;
+   
+}
+
+#skills ul{
+    list-style-type:none;
+    }
+
+    #skills ul li{
+        background-color:#F5F5F7 ;
+        font-size: 1.2rem ;
+        margin: 0 auto;
+        padding: 8px;
+        margin-bottom: 15px;
+        width: 200px;
+        border-radius: 2px;
+
+    }
+
+
+
+
+
+.certificate{
+    text-align: center;
+    padding: 40px;
+    margin: 2rem;
+    /* border-radius: 8px; */
+    
+}
+
+.certificate img{
+    width: 150px;
+    height: 200px;
+    margin-right: 1px;
+
+}
+
+.certificate h4{
+    font-size: 1.3rem;
+    font-style:italic;
+
+}
+
+.certificate p{
+    font-size: 1.1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+#resume {
+    text-align: center;
+    padding: 40px;
+    background-color:#f8eee8  ;
+}
+
+#resume a{
+    color:#493628 ;
+    border: 5px solid ;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 1px 10px;
+    border-radius:8px ;
+}
+
+#resume a:hover{
+    color:#A0937D;
+}
+
+#contact{
+    text-align: center;
+    padding: 40px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #694f40;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 80%;
+    max-width: 100%;
+    padding: 15px;
+    border: 2px dotted #150c0c;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+button[type="submit"]
+{
+    background-color:#8a7669 ;
+    cursor:pointer;
+    font-size: 1.1rem;
+    border:none;
+    padding:9px 18px ;
+    border-radius:10px ;
+}
+
+button[type="submit"]:hover{
+    background-color: #A0937D;
+    }
+
+footer{
+    color: black;
+    background-color:#e9e2de ;
+    text-align: center;
+    padding: 15px ;
+}
+
+footer a{
+    color: black;
+    
+    
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+        width: 90%; /* Better fit on mobile */
+    }
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
+}
